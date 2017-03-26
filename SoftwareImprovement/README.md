@@ -2,6 +2,8 @@
 
 Ideas for improved software development and general working ideas.
 
-  * [SLAs][1]
+  * [SLAs][SLAs]
+  * [Remote Teams][Remote Teams]
 
-[1]: ./SLAs.md
+[SLAs]: ./SLAs.md
+[Remote Teams]: ./RemoteTeams.md
