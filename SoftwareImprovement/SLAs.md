@@ -4,7 +4,7 @@ For this I'm specifically talking about internal SLAs, but in general SLAs are
 useful (and most times required) externally as well. The reason they are useful
 internally is to reduce confusion. If I create an internal SLA with a team, we
 both know the expectations for handling a situation. There shouldn't be any more
-questions like "Who needs to investigate?", "Are the response correct?", "Are
+questions like "Who needs to investigate?", "Are the responses correct?", "Are
 these response times ok?". SLAs pre-define all of those to eliminate confusion.
 I would equate it to building up an API. Would you rather have concrete
 information, or just an idea? The SLA is really just an extension of the API,
