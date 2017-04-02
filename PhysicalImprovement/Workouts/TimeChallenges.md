@@ -45,7 +45,7 @@ for later.
 ## Crunch Challenge
 
   * Total Crunches: 150
-  * PB: [3:27][Crunch Challenge]
+  * PB: [2:41][Crunch Challenge]
   * Tips: Smaller rep amounts early to save strength for later.
 
 This is a simple challenge, where you attempt to do 150 crunches as fast as
