@@ -15,4 +15,11 @@ I'm a Software Developer by trade, and I try to keep notes on things I've seen
 to be useful in the industry. There are more conceptual than concrete as every
 situation is different.
 
+## Movie and TV Improvement
+
+Used to keep track of the must see Movies and Television shows.
+
+* [Movies](./MovieAndTVImprovement/movies.md)
+* [TV](./MovieAndTVImprovement/tv.md)
+
 [1]: ./PhysicalImprovement/README.md
