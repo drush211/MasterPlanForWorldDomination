@@ -1,0 +1,6 @@
+# Docker functions installed by a setup script.
+
+# "SSH" into a docker machine that isn't running.
+docker_ssh() {
+    docker run -i -t --entrypoint /bin/bash $1
+}

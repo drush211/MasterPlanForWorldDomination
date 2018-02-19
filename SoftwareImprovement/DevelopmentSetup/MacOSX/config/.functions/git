@@ -1,0 +1,19 @@
+# Git functions installed by a setup script.
+
+# After creating a fork and cloning it locally, do this to add a remote allowing
+# for operations like 'git pull ?? master', which will sync you with the latest
+# master.
+#
+# $1 - The name of the repo to pull down.
+set_remote() {
+    git remote add ?? git@github.com:??/$1.git
+    git remote set-url --push ?? DISABLE
+}
+
+# Pull down a PR and put it in the given branch name.
+#
+# $1 - The Pull Request number.
+# $2 - The name of the branch to place the PR into.
+pr() {
+    git fetch origin pull/$1/head:$2
+}
