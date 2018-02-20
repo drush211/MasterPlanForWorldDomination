@@ -1,0 +1,6 @@
+install: true
+
+script:
+  make lint
+  make build
+  make test

@@ -10,6 +10,8 @@
 
 ### Runbooks
 
+* [Runbook Template]
+
 ## Monitoring
 
 ### Alerts
@@ -45,3 +47,5 @@
 ### Weekly Report
 
 ### Monthly Report
+
+[Runbook Template]: ./sre/runbooks/RunbookTemplate.md
