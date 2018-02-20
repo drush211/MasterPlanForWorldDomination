@@ -1,6 +1,10 @@
-install: true
+services:
+- docker
+
+install:
+- make pull-linters
 
 script:
-  make lint
-  make build
-  make test
+- make lint
+- make build
+- make test
