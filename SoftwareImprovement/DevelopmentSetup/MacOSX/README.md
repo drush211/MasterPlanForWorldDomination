@@ -11,6 +11,7 @@ run the script, simply run `./initial_setup`, or `make install`.
 4. Install Github Desktop.
 5. Clone this repo into the /github directory.
 6. Install Pycharm.
+7. Run ./setup.sh.
 
 ## Linting
 

@@ -1,11 +1,11 @@
 # Load up aliases (if any)
-if [ -f ~/.aliases ]; then
-    for f in ~/.aliases; do source $f; done
+if [ -d ~/.aliases ]; then
+    for f in ls ~/.aliases/*; do source $f; done
 fi
 
 # Load up functions (if any)
-if [ -f ~/.functions ]; then
-    for f in ~/.functions; do source $f; done
+if [ -d ~/.functions ]; then
+    for f in ls ~/.functions/*; do source $f; done
 fi
 
 # Setup Terminal Color Scheme
