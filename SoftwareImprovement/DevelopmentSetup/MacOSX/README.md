@@ -8,8 +8,9 @@ run the script, simply run `./initial_setup`, or `make install`.
 1. Install Google Chrome.
 2. Sign in to Github.
 3. Create directory /github, and chown it to your user.
-4. Clone this repo into the /github directory.
-5. Install Pycharm.
+4. Install Github Desktop.
+5. Clone this repo into the /github directory.
+6. Install Pycharm.
 
 ## Linting
 
