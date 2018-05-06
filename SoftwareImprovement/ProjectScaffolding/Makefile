@@ -3,6 +3,8 @@ all: clean lint build test
 clean:
 	echo TODO!!!
 
+## Linting Section
+
 MARKDOWN_LINTER := wpengine/mdl
 
 markdownlint:
@@ -19,8 +21,22 @@ pull-linters:
 
 lint: pylint markdownlint
 
+## Build Section
+
 build:
 	echo TODO!!!
 
-test:
+## Test Section
+
+test: unit-test integration-test system-test
+
+unit-test:
 	echo TODO!!!
+
+integration-test:
+	echo TODO!!!
+
+system-test:
+	echo TODO!!!
+
+## General Section
