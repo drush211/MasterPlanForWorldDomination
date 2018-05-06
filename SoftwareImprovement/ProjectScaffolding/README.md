@@ -13,3 +13,4 @@ command.
 * [CI/CD]
 
 [SRE]: ./docs/SRE.md
+[CI/CD]: ./docs/ContinuousIntegration.md
