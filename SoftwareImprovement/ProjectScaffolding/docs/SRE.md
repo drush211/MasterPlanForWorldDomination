@@ -4,7 +4,7 @@
 
 ### Tests
 
-1. [x] Unit tests exist to ensure basic functionality.
+1. [o] Unit tests exist to ensure basic functionality.
 2. [-] An integration test exists to ensure your service works as a running entity.
 
 ### Build
