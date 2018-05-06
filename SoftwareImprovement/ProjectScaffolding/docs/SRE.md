@@ -26,7 +26,7 @@
 
 1. [ ] Development, Deployment, and Testing are all documented and linked in the main
        README.
-2. [ ] Architectural Design Review documents exists for all major decisions about the
+2. [ ] [Architectural Design Record] documents exists for all major decisions about the
        service.
 
 ### Continuous Integration
@@ -117,3 +117,4 @@
        reporting mechanism.
 
 [Runbook Template]: ./sre/runbooks/RunbookTemplate.md
+[Architectural Design Record]: ./adr/ArchitectureDesignRecordTemplate.md
