@@ -1,6 +1,6 @@
 # SRE Checklist
 
-## Level 1 (Test, Build and Deploy)
+## Level 1 - The Prototype Phase (Test, Build and Deploy)
 
 ### Tests
 
@@ -20,7 +20,7 @@
 1. [ ] You have the ability to deploy via a single command. This can be either a
        Makefile target, Script, etc...
 
-## Level 2 (Documentation and Continuous Integration)
+## Level 2 - Turning this into a Real Thing (Documentation and Continuous Integration)
 
 ### Documentation
 
@@ -28,6 +28,8 @@
        README.
 2. [ ] [Architectural Design Record] documents exists for all major decisions about the
        service.
+3. [ ] Design document exists detailing the need of this service with impacted services
+       and customers called out.
 
 ### Continuous Integration
 
@@ -35,7 +37,7 @@
        the Continous Integration Environment.
 2. [ ] Continous Integration file runs build and test at minimum.
 
-## Level 3 (Security, Monitoring)
+## Level 3 - Operational (Security, Monitoring)
 
 ### Security
 
@@ -48,13 +50,24 @@
 3. [ ] SLA exists for the service to describe what is an immediate response issue,
        and generally expected behavior.
 
-## Level 4 (System Testing, Architecture and Runbooks)
+## Level 4 - Ready for SRE Handholding (System and Automated Testing, Architecture and Runbooks)
 
 ### System Testing
 
 1. [ ] System test exists that ensures the service works with the entire system as
        expected. Test(s) must be automated.
 2. [ ] Load test should exist that describes the peak capacity for your system.
+
+### Automation
+
+#### Automated Testing
+
+1. [ ] All testing is automated and part of the CI pipeline. Testing must also be
+       runnable from the command line.
+
+#### Automated Deploy
+
+1. [ ] Continuous Deploy must be available, but doesn't have to be turned on.
 
 ### Architecture
 
@@ -78,18 +91,7 @@
   * _Hipchat/Slack_:
   * _Email_:
 
-## Level 5 (Automation, Reporting, Planning
-
-### Automation
-
-#### Automated Testing
-
-1. [ ] All testing is automated and part of the CI pipeline. Testing must also be
-       runnable from the command line.
-
-#### Automated Deploy
-
-1. [ ] Continuous Deploy must be available, but doesn't have to be turned on.
+## Level 5 - Ready for SRE Handoff (Dependencies, Reporting, Planning)
 
 ### Planning
 
