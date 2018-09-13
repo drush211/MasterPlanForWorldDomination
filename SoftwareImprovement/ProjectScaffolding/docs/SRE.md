@@ -12,7 +12,7 @@
 1. [ ] You have an automated build of your master branch via a CI tool. I.e.
        Jenkins/TravisCI.
 2. [ ] Users are able to build your project locally without having to install the
-       the dependencies, or their is a single script that can be used to install and
+       dependencies, or their is a single script that can be used to install and
        uninstall the dependencies.
 
 ### Deploy
